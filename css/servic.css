@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+
+   
+}
+body.active{
+    --primary-color: #614400;
+    --secondary-color: black;
+    --thirtiary-color: #aeaeae;
+    --forth-color: #b4b4b4;;
+    --fiveth-color: #666666;
+    --six-color: #929292;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --primary-color: goldenrod;
+    --secondary-color: white;
+    --thirtiary-color: black;
+    --forth-color: #4d9559;;
+    --fiveth-color: #38703d;
+    --six-color: #133918;
+}
+#toggle.active{
+    --primary-color: #614400;
+    --secondary-color: black;
+    --thirtiary-color: #d0d0d0;
+}
+
+.landing{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(245.59deg, var(--forth-color) 0% , var(--fiveth-color) 28.53% , var(--six-color) 75.52%);
+    overflow-x: hidden;
+    
+}
+ul{
+ position: absolute;
+ left: 190px;
+}
+ul li{
+    display: inline-block;
+    flex-direction: row;
+    margin:  5px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    
+   
+    
+}
+.navigation{
+    justify-content: space-between;
+    animation: navv 1s;
+}
+a{
+
+    background-color: transparent;
+    color: var(--primary-color);
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: -70px;
+    left: 800px;
+    border-radius: 25px;
+    transition: .2s;
+    box-sizing: 20px;
+    /* border: 2px solid goldenrod; */
+    font-size: 15px;
+    padding: 9px;
+    
+}
+a.active{
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color); 
+}
+a:hover{
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+}
+.navigation img{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 20px;
+
+}
+.logo img{
+    position: absolute;
+    top: 7%;
+    left: 90%;  
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+} 
+.head{
+    font-size: 40px;
+    color: var(--secondary-color);
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    animation: navv 1s;
+}
+.head span{
+    color: var(--primary-color);
+
+}
+.first{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 500px;
+    height: 550px;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    animation: navv 2s;
+    transition: 1.5s;
+}
+.first:hover{
+    position: absolute;
+    top: 30%;
+    box-shadow: 0px 0px 15px var(--primary-color);
+   
+}
+.first img{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: 80px;
+}
+.first h2{
+    color: var(--secondary-color);
+    position: absolute;
+    left: 30%;
+    top: 80px;
+    
+}
+.first p{
+    color: var(--secondary-color);
+    position: relative;
+    top: 30%;
+    left: 5%;
+    font-size: 21px;
+    padding: 2px;
+    margin: 25px
+    }
+.first .btn:hover{
+        background-color: var(--primary-color);
+        color: var(--thirtiary-color);
+        opacity: .5;
+    
+    }
+    .first .btn{
+        color: var(--primary-color);
+        background-color: transparent;
+        position: relative;
+        top: 35%;
+        left: 40%;
+        font-size: 18px;
+        border-radius: 7px;
+        opacity: .9;
+    }
+
+.two{
+    position: absolute;
+    top: 35%;
+    left: 37.5%;
+    width: 500px;
+    height: 550px;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    animation: navv 1.7s;
+    transition: 1.5s;
+}
+.two:hover{
+    opacity: .5;
+    position: absolute;
+    top: 30%;
+    box-shadow: 0px 0px 15px var(--primary-color);
+   
+}
+.two img{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: 80px;
+}
+.two h2{
+    color: var(--secondary-color);
+    position: absolute;
+    left: 34%;
+    top: 80px;
+}
+.two p{
+    color: var(--secondary-color);
+    position: relative;
+    top: 30%;
+    left: 5%;
+    font-size: 21px;
+    padding: 2px;
+    margin: 20px
+    }
+    .two .btn{
+        color: var(--primary-color);
+        background-color: transparent;
+        position: relative;
+        top: 36%;
+        left: 42%;
+        font-size: 18px;
+        border-radius: 7px;
+        opacity: .9;
+    }
+    .two .btn:hover{
+        background-color: var(--primary-color);
+        color: var(--thirtiary-color);
+        border-radius: 7px;
+        border-color: transparent;
+    }
+
+.three{
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    width: 500px;
+    height: 550px;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    transition: 1.5s;
+    animation: navv 1.5s;
+}
+.three:hover{
+    position: absolute;
+    top: 30%;
+    box-shadow: 0px 0px 15px var(--primary-color);
+   
+}
+.three img{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: 80px;
+}
+.three h2{
+    color: var(--secondary-color);
+    position: absolute;
+    left: 34%;
+    top: 80px;
+}
+.three p{
+    color: var(--secondary-color);
+    position: relative;
+    top: 30%;
+    left: 5%;
+    font-size: 21px;
+    padding: 2px;
+    margin: 20px
+    }
+.three .btn{
+    color: var(--primary-color);
+    background-color: transparent;
+    position: relative;
+    top: 40%;
+    left: 42%;
+    font-size: 18px;
+    opacity: .9;
+    border-radius: 7px;
+}
+.three .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--thirtiary-color);
+    border-radius: 7px;
+
+}
+@keyframes navv{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }

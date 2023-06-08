@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/about.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="landing">
+      <!-- <div class="eli"></div> -->
+    <div class="about">
+        <nav class="navigation">
+          <div class="pic">
+          <img src="img/group.png" alt="logo" style="width: 150px; height: 90px;">
+        </div>
+          <div class="one">
+          <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="SERVIC.html">SERVICES</a></li>
+            <li> <a href="about.html" class="active">ABOUT ME</a></li>
+            <li> <a href="contact.html">CONTACT ME</a></li>
+            <li> <a href="port.html">PORTFOLIO</a></li>
+        </ul>
+      </div>
+      <div class="logo" id="toggle" >
+        <img src="img/sun.png" alt="" style=" width: 40px; height: 40px;" >
+      </div>
+         </nav>
+         <div class="text">
+          <h2 class="h2a">About Me</h2>
+          <div class="line1"></div>
+         </div>
+         <div class="image"><img src="img/about.png" alt="kale"></div>
+         <div class="text1">
+          <h2>Front end Developer</h2>
+          <h3 class="h3a">&gt;Birthday : 2002/7/4 </h3>
+          <h3 class="h3a">&gt;Phone : 0985890154 </h3>
+          <h3 class="h3a">&gt;Age : 21</h3>
+          <h3 class="h3b">&gt;Email : kaleshewanhe@gmail.com</h3>
+          <h3 class="h3b">&gt;University : Debre Markos University</h3>
+          <h3 class="h3b">&gt;Department : Soft Ware Engineering</h3>
+         </div>
+         <div class="skill">skill</div>
+         <div class="line"></div>
+           <!-- <div class="set" style=" width: 1000px; height: 200px;"> -->
+          <div class="webA"><img src="img/html.png" alt=""></div>
+          <div class="webB"><img src="img/css.png" alt=""></div>
+          <div class="webC"><img src="img/javascript.png" alt=""></div>
+          <div class="webD"><img src="img/blender.png" alt=""></div>
+          <div class="webE"><img src="img/my.png" alt=""></div>
+           <!-- </div>  -->
+      </div>
+      
+      </div>
+      <script>
+        const body = document.querySelector('body');
+               const toggle = document.getElementById('toggle');
+               toggle.onclick = function() {
+                   toggle.classList.toggle('active');
+                   body.classList.toggle('active');
+               }
+         </script>
+</body>
+</html>

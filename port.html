@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/port.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+  <!-- starting of the landing page -->
+    <div class="landing">
+      <!-- staring navigation bar -->
+        <nav class="navigation">
+            <div class="rise">
+            <img src="img/group.png" alt="logo">
+          </div>
+            <div class="one">
+            <ul>
+              <li> <a href="index.html">HOME</a></li>
+              <li> <a href="SERVIC.html">SERVICES</a></li>
+              <li> <a href="about.html">ABOUT ME</a></li>
+              <li> <a href="contact.html">CONTACT ME</a></li>
+              <li> <a href="port.html" class="active">PORTFOLIO</a></li>
+          </ul>
+        <div class="logo" id="toggle">
+        <img src="img/sun.png" alt="" >
+        </div>
+           </nav>
+           <!-- ending navigation bar -->
+           <div class="head"><h2>PORT<span>FOLIO</span></h2></div>
+           <div class="container"></div>
+           <div class="first">
+            <img src="img/Workf.png" alt="">
+           </div>
+           <div class="two">
+            <img src="img/pc.png" alt="">
+           </div>
+           <div class="three">
+            <img src="img/worka.png" alt="">
+           </div>
+           <div class="four">
+            <img src="img/Workd.png" alt="">
+           </div>
+           <div class="five">
+            <img src="img/kk.png" alt="">
+           </div>
+           <div class="six">
+            <img src="img/Worke.png" alt="">
+           </div>
+    </div>
+    <!-- ending landing page -->
+    <script>
+      const body = document.querySelector('body');
+             const toggle = document.getElementById('toggle');
+             toggle.onclick = function() {
+                 toggle.classList.toggle('active');
+                 body.classList.toggle('active');
+             }
+       </script>
+</body>
+</html>

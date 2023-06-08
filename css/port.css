@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+
+   
+}
+body.active{
+    --primary-color: #614400;
+    --secondary-color: black;
+    --thirtiary-color: #d0d0d0;
+    --forth-color: #b4b4b4;;
+    --fiveth-color: #666666;
+    --six-color: #929292;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --primary-color: goldenrod;
+    --secondary-color: white;
+    --thirtiary-color: black;
+    --forth-color: #4d9559;;
+    --fiveth-color: #38703d;
+    --six-color: #133918;
+}
+#toggle.active{
+    --primary-color: #614400;
+    --secondary-color: black;
+    --thirtiary-color: #d0d0d0;
+}
+
+.landing{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(245.59deg, var(--forth-color) 0% , var(--fiveth-color) 28.53% , var(--six-color) 75.52%);
+    overflow-x: hidden;
+}
+/* starting navigation bar */
+ul{
+ position: absolute;
+ left: 190px;
+}
+ul li{
+    display: inline-block;
+    flex-direction: row;
+    margin:  5px;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+    
+}
+nav{
+    justify-content: space-between;
+    animation: navv 2s;
+}
+a{
+
+    background-color: transparent;
+    color: var(--primary-color);
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    top: -70px;
+    left: 800px;
+    border-radius: 25px;
+    transition: .2s;
+    box-sizing: 20px;
+    /* border: 2px solid goldenrod; */
+    font-size: 15px;
+    padding: 9px;
+    animation: navv 2s;
+}
+a.active{
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+}
+a:hover{
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+}
+.navigation img{
+    width: 10%;
+    height: 10%;
+    position: relative;
+    top: 20px;
+}
+.logo img{
+    position: absolute;
+    top: 7%;
+    left: 90%;  
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+} 
+/* ending navigation bar */
+.head{
+    color: var(--primary-color);
+    background-color: transparent;
+    position: absolute;
+    top: 12%;
+    left: 43%;
+    font-size: 35px;
+    animation: navv 2s;
+}
+.head span{
+    color: var(--secondary-color);
+}
+.first{
+    position: absolute;
+    left: 7%;
+    top: 27%;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    transition: 1s;
+    border: 2px solid var(--primary-color);
+}
+.first img{
+    margin: 1%;
+    width: 490px;
+    height: 320px;
+    content: center;
+    align-items: center;
+    transition: 2s;
+    animation: navv 1s;
+}
+.first:hover{
+      position: absolute;
+      top: 24%;
+      box-shadow: 0 0 15px var(--primary-color);
+}
+.two{
+    position: absolute;
+    left: 36%;
+    top: 27%;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    transition: 1s;
+    border: 2px solid var(--primary-color);
+}
+.two img{
+    margin: 1%;
+    width: 490px;
+    height: 320px;
+    content: center;
+    align-items: center;
+    animation: navv 1s;
+}
+.two:hover{
+    position: absolute;
+    top: 24%;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+.three{
+    position: absolute;
+    left: 65%;
+    top: 27%;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    border: 2px solid var(--primary-color);
+    transition: 1s;
+}
+.three img{
+    margin: 1%;
+    width: 490px;
+    height: 320px;
+    content: center;
+    align-items: center;
+    animation: navv 1s;
+}
+.three:hover{
+    position: absolute;
+    top: 24%;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+.four{
+    position: absolute;
+    left: 7%;
+    top: 65%;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    border: 2px solid var(--primary-color);
+    transition: 1s;
+}
+.four img{
+    margin: 1%;
+    width: 490px;
+    height: 320px;
+    content: center;
+    align-items: center;
+    animation: navv ss;
+}
+.four:hover{
+    position: absolute;
+    top: 63%;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+.five{
+    position: absolute;
+    left: 36%;
+    top: 65%;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    border: 2px solid var(--primary-color);
+    transition: 1s;
+}
+.five img{
+    margin: 1%;
+    width: 490px;
+    height: 320px;
+    content: center;
+    align-items: center;
+    animation: navv 2s;
+}
+.five:hover{
+    position: absolute;
+    top: 63%;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+.six{
+    position: absolute;
+    left: 65%;
+    top: 65%;
+    border-radius: 10px;
+    width: 500px;
+    height: 330px;
+    border: 2px solid var(--primary-color);
+    transition: 1s;
+}
+.six img{
+    margin: 1%;
+    width: 490px;
+    height: 320px;
+    content: center;
+    align-items: center;
+    animation: navv 2s;
+}
+
+.six:hover{
+    position: absolute;
+    top: 63%;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+@keyframes navv{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }

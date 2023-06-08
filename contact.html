@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+  <!-- landing page start -->
+    <div class="contact">
+      <!-- navigation start -->
+    <nav class="navigation">
+
+        <div class="rise">
+        <img src="img/group.png" alt="logo">
+      </div>
+        <div class="one">
+        <ul>
+          <li> <a href="index.html">HOME</a></li>
+          <li> <a href="SERVIC.html">SERVICES</a></li>
+          <li> <a href="about.html">ABOUT ME</a></li>
+          <li> <a href="contact.html" class="active">CONTACT ME</a></li>
+          <li> <a href="port.html">PORTFOLIO</a></li>
+      </ul>
+    </div>
+    <div class="logo" id="toggle">
+    <img src="img/sun.png" alt="" >
+    </div>
+    </nav>
+    <!-- navigation end -->
+      <div class="cont">
+        <h2>Contact Me</h2>
+        <div class="sec" id="sech"><img src="img/emailo.png" alt="" style="width: 65px;"></div>
+        <div class="container">
+          <box-icon name='envelope'></box-icon>
+          <img src="img/email.png" alt="email">
+          <img src="img/phone.png" alt="phone">
+          <img src="img/mapw.png" alt="map">
+          <img src="img/tele.png" alt="telegram">
+          <img src="img/insta.png" alt="instagram">
+          <div class="info">
+              <div class="email">Email <br> <span>kaleshewanhe@gmail.com</span></div>
+              <div class="phone">Phone <br> <span>+251-985890154</span></div>
+              <div class="location">Location <br> <span>ETHIOPIA,DEBRE MARKOS</span></div>
+              <div class="tele">Telegram <br> <span>@onekale</span></div>
+              <div class="insta">Instagram <br> <span>kale shewanhe</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="info2">
+        <form action="#" class="input">
+            <input type="name" placeholder="name">
+            <input type="email" placeholder="email">
+            <input type="text" placeholder="subject">
+            <input type="text" placeholder="message" id="message">
+            <button class="btn">Submit</button>
+        </form>
+      </div>
+      <div class="coni">
+        <img src="img/contact.png" alt="me">
+      </div>
+      <div id="shadow"></div>
+    </div> 
+    <!-- landing page end  -->
+    <script>
+      const body = document.querySelector('body');
+      const toggle = document.getElementById('toggle');
+             toggle.onclick = function() {
+                 toggle.classList.toggle('active');
+                 body.classList.toggle('active');
+             }
+       </script>
+</body>
+</html>

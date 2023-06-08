@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+   
+}
+body.active{
+    --primary-color: #614400;
+    --secondary-color: rgb(39, 39, 39);
+    --thirtiary-color: #d0d0d0;
+    --forth-color: #b4b4b4;;
+    --fiveth-color: #666666;
+    --six-color: #929292;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --primary-color: goldenrod;
+    --secondary-color: #d0d0d0;
+    --thirtiary-color: black;
+    --forth-color: #4d9559;;
+    --fiveth-color: #38703d;
+    --six-color: #133918;
+}
+#toggle.active{
+    --primary-color: #614400;
+    --secondary-color: black;
+    --thirtiary-color: #d0d0d0;
+    
+}
+.navigation{
+    animation: navv 1s;
+}
+.navigation .logo img{
+    position: absolute;
+    top: 7%;
+    left: 90%;  
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+} 
+.contact{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: linear-gradient(245.59deg, var(--forth-color) 0% , var(--fiveth-color) 28.53% , var(--six-color) 75.52%);
+    margin-top: 10px;
+}
+.cont{
+    animation: navv 2s;
+}
+.info2{
+    animation: navv 2s;
+}
+.cont h2{
+    color: var(--primary-color);
+    font-size: 60px;
+    position: relative;
+    left: 50px;
+}
+.container{
+    left: 10px;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 15px var(--primary-color);
+    animation: navv 2s;
+}
+.container:hover{
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 15px var(--primary-color);
+    transition: .7s;
+}
+.container img{
+    display: flex;
+    padding: 20px;
+    width: 65px;
+    }
+.container .email{
+    color: var(--secondary-color);
+    position: relative;
+    top: -495px;
+    font-size: 20px;
+    left: 130px;
+}
+.container .email span{
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.container .phone{
+    color: var(--secondary-color);
+    position: relative;
+    top: -446px;
+    font-size: 25px;
+    left: 130px;
+}
+.container .phone span{
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.container .location{
+    color: var(--secondary-color);
+    position: relative;
+    top: -390px;
+    font-size: 25px;
+    left: 130px;
+}
+.coni{
+    animation: navv 2s;
+}
+.container .location span{
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.container .tele{
+    color: var(--secondary-color);
+    position: relative;
+    top: -345px;
+    font-size: 25px;
+    left: 130px;
+}
+.container .tele span{
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.container .insta{
+    color: var(--secondary-color);
+    position: relative;
+    top: -305px;
+    font-size: 25px;
+    left: 130px;
+}
+.container .insta span{
+    font-size: 15px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.contact .input{
+    position: relative;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 15px var(--primary-color);
+    top: -600px;
+    left: 600px;
+    width: 500px;
+    height: 595px;
+    border-radius: 15px;
+}
+.contact .input:hover{
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 0px 15px var(--primary-color);
+    transition: .9s;
+}
+.contact input{
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    width: 400px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: var(--thirtiary-color);
+    border-color: var(--secondary-color);
+    outline: none;
+} 
+.contact #message{
+    height: 250px;
+    text-align: center;
+}
+.contact .btn{
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 7px;
+    position: relative;
+    top: 5px;
+    left: 200px;
+    cursor: pointer;
+}
+.contact .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--thirtiary-color);
+}
+.coni img{
+    width: 550px;
+    position: relative;
+    top: -1200px;
+    left: 67%;
+    border-radius: 10px;
+    transition: 2s;
+    transform: navv 2s;
+}
+.coni img:hover{
+    position: relative;
+    top: -1300px;
+    border-radius: 25px;
+}
+ul{
+    position: absolute;
+    left: 190px;
+   }
+   ul li{
+       display: inline-block;
+       flex-direction: row;
+       margin:  5px;
+       padding: 5px;
+       position: relative;
+       top: 5px;
+       align-items: center;
+   }
+   .navigation{
+       justify-content: space-between;
+   }
+   a{
+       background-color: transparent;
+       color: var(--primary-color);
+       display: inline-block;
+       text-decoration: none;
+       position: relative;
+       top: -70px;
+       left: 800px;
+       border-radius: 25px;
+       transition: .2s;
+       box-sizing: 20px;
+       font-size: 14px;
+       padding: 9px;
+       
+   }
+   a:hover{
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color);
+   }
+   a.active{
+    border-bottom: 2px solid var(--primary-color);
+    border-top: 2px solid var(--primary-color); 
+   }
+   .navigation img{
+       width: 10%;
+       height: 10%;
+       position: relative;
+       top: 20px;
+   }
+   .eli{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: goldenrod;
+    width: 550px;
+    height: 1100px;
+    border-radius: 50% / 100% 100%  0 0;
+    rotate: 90deg;
+    opacity: .2;
+    transition: 5s;
+  }
+  .eli:hover{
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    transition: 5s;
+  }
+  .sec{
+    position: absolute;
+    top: 317px;
+    left: 21px;
+    opacity: 0;
+
+  }
+  @keyframes navv{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+  }
+ 
